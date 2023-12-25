@@ -82,14 +82,6 @@ VALUES (1, 1, 1, '2023-02-15 10:00:00', 60);
 INSERT INTO Exam_Results (Student_ID, Examiner_ID, Vehicle_ID, Exam_Date, Exam_Type, Grade) 
 VALUES (13, 1, 2, '2023-04-15', 'Практический', 'Прошел');
 
-
-INSERT INTO users (username, password, access_level) VALUES
-    ('student_user', 'student_password', 'студент'),
-    ('instructor_user', 'instructor_password', 'инструктор'),
-    ('admin_user', 'admin_password', 'администратор');
-
-
-
 -- Удаление студента по идентификатору
 
 DELETE FROM Students
